@@ -1,0 +1,100 @@
+.stekn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap : 30px;
+    padding: 30px;
+}
+
+footer{
+    height: 600px;
+    width: 100%;
+    max-width: 1380px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-foot{
+    width: 60%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: #ffffff13;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.sektions{
+    width: 30%;
+    background-color: #ffffff4a;
+    border-radius: 15px;
+    height: 120px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.sektions{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    align-items: center;
+}
+
+.reting{
+    width: 100px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.raginwis{
+    width: 38%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    background-color: #ffffff13;
+    height: 93%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.phoneinp{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.inptext{
+    padding: 20px 80px;
+    background-color: #ffffff32;
+    border-radius: 15px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.inptext::placeholder{
+    color: #fff;
+}
+
+.submit-btn{
+    padding: 20px 160px;
+    border-radius: 15px;
+    background-color: #5A00DB;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
