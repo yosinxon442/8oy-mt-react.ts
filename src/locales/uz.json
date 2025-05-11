@@ -1,0 +1,81 @@
+{
+    "hero": {
+      "title1": "Yuqori sifatdagi",
+      "title2": "aniqlikka asoslanib",
+      "title3": "istalgan turdagi",
+      "title4": "dasturlarni tayyorlaymiz",
+      "button": "Xizmatlar haqida"
+    },
+    "experience": {
+      "years": "7+ yillik",
+      "description1": "Umumiy tajriba",
+      "projects": "5+",
+      "description2": "Yirik loyihalar",
+      "services": "8+",
+      "description3": "Xizmat turlari",
+      "security": "100%",
+      "description4": "Xavfsizlik"
+    },
+    "about": {
+      "title": "Biz haqimizda",
+      "subtitle": "Qisqacha ma’lumot",
+      "box1": {
+        "title": "Boshlanishi",
+        "text": "Biz --- dan ish boshladik va ---- larni oldimizga maqsad qilib qo’ydik"
+      },
+      "box2": {
+        "title": "Uzoq muddatli loyihalar",
+        "text": "Tajribamiz davomida umumiy hisobda - - loyiha uchun -- - muddatda ishlab topshirdik"
+      },
+      "box3": {
+        "title": "Jamoamiz kengaymoqda",
+        "text": "Jamoamiz safi esa tobora kengaymoqda. Boshida - kishidan boshlangan faoliyatimiz hozirda -- kishi bilan davom etmoqda"
+      }
+    },
+    "more_info": "Bu yerda esa yana ko’proq ma’lumotlar berilishi kerak. Lorem Ipsum...",
+    "projects": {
+      "title": "Loyihalarimiz",
+      "subtitle": "biz haqimizda gapirsin !",
+      "project1": {
+        "title": "Tourmad loyihasi",
+        "desc": "Tourmad – O‘zbekistonning ichki turizimini rivojlantirish maqsadida ishlab chiqilgan web sayt..."
+      },
+      "project2": {
+        "title": "ProRun loyihasi",
+        "desc": "Prorun.uz – yugurish musobaqalari uchun platforma..."
+      },
+      "project3": {
+        "title": "Xalq trans loyihasi",
+        "desc": "Bu yerda esa yana ko’proq ma’lumotlar berilishi kerak..."
+      },
+      "view_button": "Loyihani ko’rish",
+      "all_button": "Boshqa loyihalarni ko’rish"
+    },
+    "services_section": {
+      "title": "Xizmat turlari",
+      "subtitle": "Dasturlash sohasidagi eng talabgir xizmat turlaridan quyidagilar:"
+    },
+    "services": {
+      "service1": { "title": "Korporativ veb-sayt", "desc": "Kompaniya haqida umumiy ma’lumot..." },
+      "service2": { "title": "E-commerce sayt", "desc": "Online do‘konlar yaratish..." },
+      "service3": { "title": "CRM tizim", "desc": "Mijozlar bilan ishlashni avtomatlashtirish..." },
+      "service4": { "title": "Mobil ilova", "desc": "Android/iOS uchun ilovalar..." },
+      "service5": { "title": "Landing page", "desc": "Sotuvga mo‘ljallangan sahifalar..." },
+      "service6": { "title": "Portal", "desc": "Axborot portallari..." },
+      "service7": { "title": "CMS integratsiyasi", "desc": "WordPress va boshqa tizimlar..." },
+      "service8": { "title": "Startap loyihalar", "desc": "Nol'dan loyihalarni boshlash..." },
+      "service9": { "title": "Texnik xizmat", "desc": "Yaratilgan saytlar uchun qo‘llab-quvvatlash..." }
+    },
+    "contact_section": {
+      "title": "Biz bilan aloqa",
+      "subtitle": "Loyihangizni qanday realizatsiya qilish haqida batafsil suhbatlashamiz"
+    },
+    "nav": {
+      "home": "Bosh sahifa",
+      "portfolio": "Portfolio",
+      "services": "Xizmatlar",
+      "contact": "Aloqa",
+      "project": "Loyiha"
+    }
+  }
+  

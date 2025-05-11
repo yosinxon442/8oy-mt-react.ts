@@ -45,6 +45,12 @@
     background-color: #ffffff11;
     margin: 0 auto;
     margin-bottom: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.xis-box:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
 }
 
 .layot{
@@ -88,10 +94,110 @@
     border-bottom: 1px solid #fff;
     margin-top: 50px;
     border-top: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-xis:hover{
+    transform: scale(1.05);
+    background-color: #ffffff38;
+    transition: all 0.3s ease-in-out;
 }
 
 .postion-p{
     position: absolute;
     bottom: 0px;
     right: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .xiz_top{
+        flex-direction: column;
+    }
+
+    .xiz_top h1{
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .xis-img{
+        width: 100%;
+    }
+
+    .xis-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .xis-box{
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .xis-box > div:nth-child(1) {
+        order: 2;
+    }
+    .xis-box > div:nth-child(2) {
+        order: 1;
+    }
+
+    .ragin12 {
+        width: 96%;
+        padding: 20px 10px 20px 10px;
+
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ragin_img {
+        width: 100%;
+        height: auto;
+        border-radius: 25px 25px 0 0;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    .orgendeng{
+        order: 1;
+    }
+
+    .postion-p {
+        position: absolute;
+        width: 60px;
+        height: auto;
+        margin-top: 15px;
+        right: 20px;
+        bottom: 0px;
+    }
+
+    .layot {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .layot div p, .pring {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .btn-xis {
+        width: 50%;
+        padding: 12px 0;
+        margin-top: 25px;
+        font-size: 16px;
+        display: block;
+    }
+
+    .ptep {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .ragin12 h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
 }
