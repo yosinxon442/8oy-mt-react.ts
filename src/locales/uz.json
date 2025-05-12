@@ -20,6 +20,23 @@
     "tok11":"Prorun.uz – bu saytda tez-tez bo‘lib o‘tadigan yugurish bo‘yicha musobaqalar bo‘lib o‘tadi va siz saytdan ro‘ yxatdan o‘tgan holda istalgan yoki har bir musobaqada qatnashishingiz mumkin.  Nima uchun sayt qurilgan? Musobaqalarda chet ellik ishtirokchilar bo‘lgani bois ularga va boshqa qatnashchilarga ro‘yxatdan o‘tishni oson qilish uchun yangi web ilova ishlab chiqildi.",
     "tok12":"Xalq trans loyihasi"
   },
+  "xiz":{
+    "mk":"Har bir xizmat turini",
+    "mk2":"har bir mijoz uchun",
+    "mk3":"alohida ahamiyatli",
+    "mk4":"deb yondoshamiz !",
+    "mk5":"Landing sahifalar",
+    "mk6":"Qisqa va ta'sirli",
+    "mk7":"Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.",
+    "mk8":"Maqsadli",
+    "mk9":"Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.",
+    "mk10":"Tez yuklanuvchi",
+    "mk11":"Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.",
+    "mk12":"Texnik vazifa tayyorlab berish: 1 kun",
+    "mk13":"Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)",
+    "mk14":"Veb Dizayn: 10-15 soatlik mehnat.",
+    "mk15":"Buyurtma berish"
+    },
   "experience": {
     "years": "7+ yillik",
     "description1": "Umumiy tajriba",

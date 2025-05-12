@@ -1,16 +1,22 @@
+'use client';
+
 import React from "react";
 import "@/app/xizmatlar/page.css"
+import { useTranslation } from 'react-i18next';
 
 const XizmatlarPage = () => {
+
+   const { t } = useTranslation();
+
   return (
     <div className="container">
       <div className="xiz_top">
         <div className="xis-h1">
           <h1>
-            Har bir xizmat turini <br />
-            <span className="xis-sit">har bir mijoz uchun</span> <br />
-            <span className="xis-sit2">alohida ahamiyatli</span> <br />
-            deb yondoshamiz !
+            {t("xiz.mk")} <br />
+            <span className="xis-sit">{t("xiz.mk2")}</span> <br />
+            <span className="xis-sit2">{t("xiz.mk3")}</span> <br />
+            {t("xiz.mk4")}
           </h1>
         </div>
         <div className="xis-img">
@@ -20,41 +26,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1> {t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec1.png" alt="" />
         </div>
@@ -68,41 +72,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec2.png" alt="" />
         </div>
@@ -116,41 +118,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec3.png" alt="" />
         </div>
@@ -164,41 +164,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec4.png" alt="" />
         </div>
@@ -212,41 +210,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec5.png" alt="" />
         </div>
@@ -260,41 +256,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec1.png" alt="" />
         </div>
@@ -308,41 +302,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec1.png" alt="" />
         </div>
@@ -356,41 +348,39 @@ const XizmatlarPage = () => {
 
       <div className="xis-box">
         <div className="ragin12">
-          <h1>Landing sahifalar</h1>
+          <h1>{t("xiz.mk5")}</h1>
 
           <div className="layot">
 
             <div>
-              <h2>Qisqa va ta'sirli</h2>
+              <h2>{t("xiz.mk6")}</h2>
 
-              <p>Mijozni birinchi qarashda qiziqtiradigan va uni keyingi qadamga undaydigan muhim ma'lumotlarni taqdim etadi.
-              </p>
+              <p>{t("xiz.mk7")}</p>
             </div>
             <div>
 
-              <h2>Maqsadli</h2>
+              <h2>{t("xiz.mk8")}</h2>
 
-              <p>Aniq maqsadga yo'naltirilgan bo'lib, mijozni maxsus harakatga undashga xizmat qiladi.
-              </p>
+              <p>{t("xiz.mk9")}</p>
 
             </div>
 
           </div>
           
           <div>
-            <h2>Tez yuklanuvchi</h2>
+            <h2>{t("xiz.mk10")}</h2>
 
             <p className="pring">
-              Mijozlarning sabr-toqatiga ta'sir qilmaslik uchun iloji boricha tez yuklanadi.
+              {t("xiz.mk11")}
             </p>
 
           </div>
 
-          <p className="ptep">Texnik vazifa tayyorlab berish: 1 kun</p>
-          <p>Sayt sahifalar soni: 1 (har bir sahifa minimum 5 ta qismdan iborat bo’ladi.)</p>
-          <p>Veb Dizayn: 10-15 soatlik mehnat.</p>
+          <p className="ptep">{t("xiz.mk12")}</p>
+          <p>{t("xiz.mk13")}</p>
+          <p>{t("xiz.mk14")}</p>
 
-          <button className="btn-xis">Buyurtma berish</button>
+          <button className="btn-xis">{t("xiz.mk15")}</button>
 
           <img className="postion-p" src="./img/ec1.png" alt="" />
         </div>
@@ -402,8 +392,8 @@ const XizmatlarPage = () => {
       </div>
 
       <div className="baner">
-        <h1>Biz bilan aloqa</h1>
-        <p>Loyihangizni qanday realizatsiya qilish haqida batafsil suhbatlashamiz</p>
+        <h1>{t("contact_section.title")}</h1>
+        <p>{t("contact_section.subtitle")}</p>
       </div>
 
     </div>
