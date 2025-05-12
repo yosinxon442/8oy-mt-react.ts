@@ -15,7 +15,7 @@ const Home = () => {
             <h1>
               {t("hero.title1")} <br />
               <span className="hom__span">{t("hero.title2")}</span><br />
-              <span>{t("hero.title3")}</span><br />
+              <span id="hom__spa221">{t("hero.title3")}</span><br />
               {t("hero.title4")}
             </h1>
             <button className="hom__1__btn">{t("hero.button")}</button>
