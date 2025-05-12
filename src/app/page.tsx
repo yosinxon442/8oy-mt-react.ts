@@ -108,19 +108,23 @@ const Home = () => {
           <img src="./img/ran.svg" alt="" />
         </div>
         <div className="divs">
-          <h3>{t("projects.project1.title")}</h3>
-          <p>{t("projects.project1.desc")}</p>
-          <button className="btn">{t("projects.view_button")}</button>
+          <h3>{t("chime.tok7")}</h3>
+          <p>
+            {t("chime.tok8")}
+          </p>
+          <button className="btn">{t("chime.tok9")}</button>
         </div>
       </div>
 
       <div className="cont_divs">
-        <div className="divs decing orgender">
-          <h3>{t("projects.project2.title")}</h3>
-          <p>{t("projects.project2.desc")}</p>
-          <button className="btn">{t("projects.view_button")}</button>
+        <div className="divs order decing">
+          <h3>{t("chime.tok10")}</h3>
+          <p>
+            {t("chime.tok11")}
+          </p>
+          <button className="btn">{t("chime.tok9")}</button>
         </div>
-        <div className="divs order">
+        <div className="divs">
           <img src="./img/re1.svg" alt="" />
         </div>
       </div>
@@ -130,9 +134,11 @@ const Home = () => {
           <img src="./img/re2.svg" alt="" />
         </div>
         <div className="divs">
-          <h3>{t("projects.project3.title")}</h3>
-          <p>{t("projects.project3.desc")}</p>
-          <button className="btn">{t("projects.view_button")}</button>
+          <h3>{t("chime.tok12")}</h3>
+          <p>
+          {t("chime.tok11")}
+          </p>
+          <button className="btn">{t("chime.tok9")}</button>
         </div>
       </div>
 

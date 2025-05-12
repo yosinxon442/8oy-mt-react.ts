@@ -31,7 +31,6 @@ export default function Header() {
           <img src="/log/logo.svg" alt="Noventer logo" className={styles.logo} />
         </div>
 
-        {/* Desktop menyu */}
         <ul className={styles.links}>
           <li>
             <Link href="/" className={pathname === '/' ? styles.active : ''}>{t('nav.home')}</Link>
@@ -56,14 +55,12 @@ export default function Header() {
           <button className={styles.button}>{t('nav.project')}</button>
         </div>
 
-        {/* Mobile menyu tugmasi */}
         <div className={`${styles.hamburger} ${isMenuOpen ? styles.active : ''}`} onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        {/* Mobile menyu */}
         <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.active : ''}`}>
           <ul className={styles.links}>
             <li>
