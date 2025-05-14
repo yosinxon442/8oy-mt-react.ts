@@ -308,6 +308,7 @@ body {
 
 .posin_bx:hover{
     transform: scale(1.05);
+    background-color: rgb(120, 89, 247);
     transition: all 0.3s ease-in-out;
 }
 
@@ -414,6 +415,7 @@ body {
     
     .order{
         order: 1;
+        width: 85%;
     }
 
     .orgender{
